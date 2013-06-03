@@ -1,1 +1,16 @@
 Sorting Algorithms
+____________________
+
+Dynamic Sort
+____________________
+Linear complexity : 2n + m (assuming N is the size of the array, and M the maximum element)
+Requires :
+- Integers
+- Maximum of the array is not "too big"
+
+For this sort to be interesting :
+
+2n + m < n log(n)
+m < n log(n) - 2 n
+
+I.E : n = 500k, n = 300k
